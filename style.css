@@ -1,0 +1,375 @@
+* {
+
+   font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: rgb(0, 92, 184);
+    height: 100%;
+}
+
+.fa {
+    width: 5px;
+    text-decoration: none;
+    color:white; 
+    margin: 10px;
+  }
+  
+.paragraph{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+/*-----navbar----*/
+.dropdwn{
+    margin: 0 auto;
+}
+nav{
+    padding-top: 10px;
+	height: 70px;
+    background:#f7f8fa;
+}
+.logo{
+	   height: 50px;
+       padding-left:80px;
+}
+.active{
+	border-radius:50px;
+	background-color:rgb(0, 92, 184);
+	color:white;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+    margin-right: 170px;
+    z-index:9999;
+}
+nav ul li{
+	position: relative;
+	list-style: none;
+    display: inline-block;
+    z-index:9999;
+}
+nav ul li a{
+	display: block;
+    padding: 0 15px;
+	color: black;
+	text-decoration: none;
+	line-height: 40px;
+    font-size: 13px;
+}
+nav ul li a:hover{
+	background: blue;
+    color:white;
+    border-radius:50px;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+	background: blue;
+	border-radius:50px;
+    color:white;
+}
+nav ul ul{
+	position: absolute;
+	top: 40px;
+	line-height: 60px !important;
+	display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+	width:180px;
+	float: none;
+	display: list-item;
+	position: relative;
+    line-height: 20px !important;
+    background-color: white;
+    
+}
+
+nav ul ul ul li{
+	position: relative;
+	top: -30px;
+	left:180px;
+}
+
+
+/*------slider-footer---*/
+.slider-footer{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 92, 184);
+    height: 100%;
+}
+
+
+
+/*--------introduction-----*/
+.introduction{
+    background-color:#f7f8fa;
+
+}
+
+.heading{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+.green{  
+    color: rgb(11, 114, 11); 
+}
+.blue{
+    color: rgb(0, 92, 184);
+}
+.favicon{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dash{
+    color:rgb(11, 114, 11) ;
+    font-weight:  bold;
+}
+.grey{
+   
+    padding-bottom: 40px;
+    text-align: justify;
+    color: grey;
+}
+/*-----score-----*/
+.score{
+    background-color: rgb(0, 92, 184);
+    height: 100%
+}
+.container-score{
+    padding-top:80px ;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.img-score {
+   color: white;
+   font-size: 40px;
+   font-weight: 600;
+  }   
+.d {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+} 
+.f{
+    color:#00FF00;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/*---------What are we doing------*/
+.doing{
+  background-color: #f7f8fa;
+}
+.doing-container{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+.box{
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+    height:180px;
+    margin-bottom: 30px;
+    -moz-box-shadow: 0 0 10px #777777;  
+     -webkit-box-shadow: 0 0 10px #777777;  
+     box-shadow: 0 0 10px #777777;
+     background-color: white;
+}
+.imgbox{
+    visibility: visible;
+    width:70px;
+    cursor: pointer;
+}
+.imgtext{
+    font-weight: bold;
+    color:rgb(0, 92, 184);
+    padding-top: 5px;
+    
+}
+
+/*-------mission------*/
+.mission{
+    background-color: white;
+}
+
+.conatiner-mission{
+    margin-top:50px ;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 50px;
+    
+}
+.mission-heading{
+    color:rgb(0, 92, 184);
+    font-weight: bold;
+
+}
+.mission-heading:after{
+    content:'';
+    position:absolute;
+    left:0; right:0;
+    top:30px;
+    margin:10px;
+    width:10%;
+    height:2px;
+    background:rgb(11, 114, 11);
+    
+}
+.corner{
+    margin-top: 15px;
+    border: 1px solid rgb(219, 213, 213);
+    background: #f7f8fa;
+    width: 350px;
+    height: 70px;  
+
+  }
+
+.mission-subheading{
+    color:rgb(0, 92, 184);
+    padding-left: 40px;
+    padding-top: 20px;
+    font-weight:bold;
+    font-size: 18px;
+}
+.mission-img{
+    padding-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.upcoming{
+  
+  color:rgb(0, 92, 184);
+  font-weight: bold;
+}
+.upcoming:after{
+    content:'';
+    position:absolute;
+    left:0; right:0;
+    top:30px;
+    margin:10px;
+    width:20%;
+    height:2px;
+    background:rgb(11, 114, 11);
+}
+.upcoming-para{
+    color: grey;
+    margin-top: 20px;
+}
+/*------gallery-----*/
+.gallery{
+    padding-bottom: 100px;
+   
+}
+.section-content{
+    padding-left:135px;
+}
+.img-responsive{
+    width: 200px;
+    height: 150px;
+    padding: 1px;  
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 200px;
+    opacity:0;
+    transition: .3s ease;
+    background-color:rgb(243, 243, 243);
+  }
+  
+  .container-image:hover .overlay {
+    opacity: 0.8;
+  }
+  .icons-holder {
+    transition: .3s ease;
+    position: absolute;
+    top: 40%;
+    left:37%;
+    text-align: center;
+  }
+/*------footer-----*/
+.contact{
+   
+    background-color: rgb(37, 39, 46) !important;
+}
+
+.container-footer{
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+.text{
+    color:rgb(202, 199, 199);
+    text-align: left;
+    font-size: 14px;
+}
+.contact-icon{
+    text-align: justify;
+}
+.text1{
+    color:white;
+    font-weight: bold;
+}
+
+.social{
+    padding: 5px;
+    font-size: 10px;
+    width: 25px;
+    margin:5px 2px;
+    border-radius: 80%;
+    text-align: center;
+    background: rgb(0, 92, 184);
+}
+.footer {
+	background:rgb(0, 92, 184);
+	height: 50px;
+	margin-top: 50px;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.scrolltotop{
+    position: fixed;
+    background-color:rgb(243, 243, 243) ;
+    color: white;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    width: 50px;
+    height:50px;
+    bottom: 10px;
+    right: 30px;
+}
+.scrolltotop:hover{
+    background-color: rgb(53, 55, 63);
+}
